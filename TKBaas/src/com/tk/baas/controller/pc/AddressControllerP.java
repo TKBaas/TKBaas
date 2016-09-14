@@ -34,8 +34,7 @@ import com.tk.baas.service.SellerService;
 @Controller
 @RequestMapping(value="/address/pc")
 public class AddressControllerP {
-	
-	//地址service
+
 	@Resource(name="AddressService")
 	private AddressService addressService;
 	
